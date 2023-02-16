@@ -1,0 +1,14 @@
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.rec-container {
+  display: flex;
+
+  background-color: #b3e6ff;
+  span {
+    font-size: 25px;
+    padding: 10px;
+  }
+}

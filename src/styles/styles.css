@@ -1,0 +1,26 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  background-color: #b3e6ff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.rec-container {
+  display: flex;
+  background-color: #b3e6ff;
+}
+.rec-container span {
+  font-size: 25px;
+  padding: 10px;
+}

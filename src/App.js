@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/header/header-component";
+import SelectorContainer from "./components/selector-container/selector-container-component";
+import ResultContainer from "./components/result-container/result-container";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <SelectorContainer />
+      <ResultContainer />
     </div>
   );
 }
